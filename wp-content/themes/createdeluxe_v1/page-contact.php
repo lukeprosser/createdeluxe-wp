@@ -97,9 +97,9 @@
       <!-- social links -->
       <div class="social center">
         <ul>
-          <li><a href="mailto:luke@createdeluxe.com" target="_blank"><i class="fas fa-envelope-square fa-lg"></i> luke@createdeluxe.com</a></li>
           <li><a href="https://github.com/lukeprosser" target="_blank"><i class="fab fa-github-square fa-lg"></i> GitHub</a></li>
           <li><a href="https://www.linkedin.com/in/lukeprosser/" target="_blank"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a></li>
+          <li><a href="mailto:luke@createdeluxe.com" target="_blank"><i class="fas fa-envelope-square fa-lg"></i> luke@createdeluxe.com</a></li>
         </ul>
       </div><!-- social links -->
     </div><!-- /container -->
