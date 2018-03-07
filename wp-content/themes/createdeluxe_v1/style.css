@@ -351,6 +351,7 @@ FRONT PAGE
   background: url(img/showcase-bg-crop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 400px;
   padding: 100px 1rem 1rem 1rem;
 }
