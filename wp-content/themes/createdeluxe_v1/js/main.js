@@ -22,14 +22,13 @@ window.addEventListener('click', function(event){
 });
 
 // Shrink header on scroll
-var header, yPos;
+var header = document.querySelector('header.shrink');
+var headerGrid = document.querySelector('.header-grid');
+var brand = document.querySelector('.brand img');
+var siteNav = document.querySelector('.site-nav');
+var yPos = window.pageYOffset;
 
 function yScroll(){
-  header = document.querySelector('header.shrink');
-  headerGrid = document.querySelector('.header-grid');
-  brand = document.querySelector('.brand img');
-  siteNav = document.querySelector('.site-nav');
-  yPos = window.pageYOffset;
 
   if(yPos > 150) {
     header.style.height = '75px';
@@ -42,5 +41,6 @@ function yScroll(){
     brand.style.width = '225px';
     siteNav.style.fontSize = '1.2rem';
   }
+  
 }
 window.addEventListener('scroll', yScroll);
